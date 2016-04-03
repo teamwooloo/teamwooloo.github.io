@@ -1,0 +1,51 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<%= config.description %>">
+    <meta name="author" content="<%= config.author %>">
+
+
+    <title><% if (page.title){ %><%= page.title %> | <% } %><%= config.title %></title>
+
+    <% if (theme.favicon){ %>
+    <link rel="icon" href="<%- theme.favicon %>">
+    <% } %>
+
+
+    <%- open_graph({
+        twitter_id: theme.twitter/*,
+        google_plus: theme.google_plus,
+        fb_admins: theme.fb_admins,
+        fb_app_id: theme.fb_app_id*/
+    }) %>
+
+    <% if (theme.fancybox){ %>
+        <%- css('fancybox/jquery.fancybox') %>
+    <% } %>
+
+    <%- css('css/fontawesome/css/font-awesome.min') %>
+    <%- css('css/style') %>
+    <%- css('css/yt_background/jquery.mb.YTPlayer.min.css') %>
+
+    <script type="text/javascript">
+
+        //Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent
+        window.cookieconsent_options = {
+            "message": "This website uses cookies to ensure you get the best experience on our website",
+            "dismiss": "Got it!",
+            "learnMore": "More info",
+            "link": null,
+            "theme": "dark-bottom"
+        };
+
+        //Google search-box
+        window.GOOGLE_API_PUBLIC_KEY = "<%- config.GOOGLE_API_PUBLIC_KEY %>";
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <%- partial('google_analytics') %>
+
+</head>

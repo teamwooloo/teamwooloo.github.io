@@ -1,0 +1,42 @@
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing{
+  text-align: center;
+  h2 {
+    font-weight: normal;
+  }
+  p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.marketing-info{
+  @extend .hidden-xs-down;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette{
+  @extend .col-xs-12;
+  @extend .col-sm-4;
+}
+
+.featurette-divider {
+  margin: 30px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.marketing-img {
+  height: 110px;
+  margin: 20px 0 20px 0;
+}

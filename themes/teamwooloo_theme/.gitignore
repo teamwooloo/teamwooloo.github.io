@@ -1,0 +1,24 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+.idea/
+
+# Do not include things that grunt handles
+# ==============================================
+source/css/fontawesome
+
+source/fancybox
+
+source/js/bootstrap
+source/css/_bootstrap
+
+source/js/tether
+
+source/js/yt_background
+source/css/yt_background
+
+# ==============================================

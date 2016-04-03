@@ -1,0 +1,39 @@
+language: node_js
+node_js:
+- '0.12'
+branches:
+  only:
+  - dev
+before_install:
+- npm install -g hexo
+- npm install -g grunt-cli
+install:
+- npm install
+- cd themes/$THEME
+- npm install
+- grunt clean
+- grunt
+- cd ../..
+before_script:
+- set -e
+- hexo clean
+script:
+- hexo generate
+after_success:
+- cd public
+- git init
+- git remote add -t $DEPLOY_BRANCH origin https://${GH_TOKEN}@${DEPLOY_REPO} > /dev/null
+  2>&1
+- git config --global user.name "teamwooloo - Travis CI"
+- git config --global user.email "teamwooloo@gmail.com"
+- ls -a
+- git add -A .
+- git commit -m "Deploy site"
+- git branch -m $DEPLOY_BRANCH
+- git push -fu origin $DEPLOY_BRANCH > /dev/null 2>&1
+env:
+  global:
+  - THEME=teamwooloo_theme
+  - DEPLOY_REPO=github.com/teamwooloo/teamwooloo.github.io.git
+  - DEPLOY_BRANCH=master
+  - secure: ruf8mxTMLIAGWXHQSw9sfx5gAYK9ztj5EJ0V26ZzrvzAdqPjGgQFnGzmw9GRVgu97U4xLgZH+bDPtbW6GzOy0pBOBX3YOAVt6Uvld55X/5Gc5wk51UCjgAbuKvvGDntyeOgyz6njqPxn2yjhyOhVXsq/7o9odXme7fyyyjQO9Xb66Q9G76MeHd/GSMw4TuZZuuC6tkeQNGlppRb+AdVJTQR76anG163zhbvX0Hg7pdNjRyWOldguiGxhe/oToFEgxh1b4O1koG9iR9NUY4/xnlq2Uafvr+TDti4nPSbH+jtS62Np9mep5fivi9C32YPyptnYgrv8MqCbJYdqs102xQxGQsTXCzJVJWaBeYCdApaQFvOj2m7QZ8XRjUcZQRnTXK89i/e8WgEqrzI7ijk2QevzNaBQAMb7ZOgqNzfcDSqdujZ9lkFWlDPvYgdd5vwLTcUioHDEPyak9MvgR+SIQrwfj9qx9CGadJ2r1HlUz7DWoWrPAbre0C2q1pRrq6KtnovaeXsPR03qstesttT/+zhLv2xIj8p4Zr/Tb4pW45bBz28pIwAGKTb8s+cw6wGwQrkxzzYHX2gRxdMYliUdbSIV8WZ8i/Iz1VeXvyrko7u/mIQMc61ndJSqpcjPn2UU3lUhppPZpwqO7EYrhBsrS+m+53VyL4GXTuOQfDpuXTw=

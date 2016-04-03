@@ -1,0 +1,19 @@
+items:
+  - headline: Drones in vanilla minecraft!
+    text: Functional quadcopter drones in vanilla Minecraft! <br/> Installable with just one command!
+    button:
+        text: View the drones!
+        url: "/drones.html"
+        newtab: false
+  - headline: Hermitcraft boss battle!
+    text: We have created a epic boss battle, Hermitcraft ftw! <br/> Installable with just a resource pack and 7 command blocks!
+    button:
+        text: View Hermitcraft BOSS BATTLE!
+        url: "/hermitcraft.html"
+        newtab: false
+  - headline: "MC Story Mode: Wither Storm"
+    text: "We recreated the 'MC Story Mode: Wither Storm' in vanilla Minecraft! <br/> Click below for: Download + Video + More info"
+    button:
+        text: View it!
+        url: "/witherstorm.html"
+        newtab: false

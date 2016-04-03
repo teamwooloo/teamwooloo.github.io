@@ -1,0 +1,38 @@
+
+<% if(theme.bootstrap.javascript){ %>
+
+    <%- js('js/tether/tether.min') %>
+    <%- js('js/bootstrap/bootstrap.min') %>
+
+    <% theme.bootstrap.enabled_plugins.forEach(function(plugin){ %>
+        <%- js('js/bootstrap/umd/'+plugin) %>
+    <% }) %>
+
+<% } %>
+
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js" async></script>
+
+
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script async>
+    (function($){
+        $(window).load(function() {
+            window.console.log("window onLoad");
+            $(".adsbygoogle").each(function () {
+                window.console.log("ad activated");
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        });
+    })(jQuery);
+</script>
+
+
+<% if (theme.fancybox){ %>
+    <script src="/fancybox/jquery.fancybox.pack.js" defer></script>
+<% } %>
+
+<script src="/js/yt_background/jquery.mb.YTPlayer.min.js" defer></script>
+<script src="/js/script.js" defer></script>
+
