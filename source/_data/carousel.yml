@@ -1,9 +1,9 @@
 items:
-  - headline: Drones in vanilla minecraft!
-    text: Functional quadcopter drones in vanilla Minecraft! <br/> Installable with just one command!
+  - headline: "Minecraft Museum: Tazers!"
+    text: Tazers that are able to taze mobs and make them spazz out!
     button:
-        text: View the drones!
-        url: "/drones.html"
+        text: View the Tazer!
+        url: "/tazer.html"
         newtab: false
   - headline: Hermitcraft boss battle!
     text: We have created a epic boss battle, Hermitcraft ftw! <br/> Installable with just a resource pack and 7 command blocks!
