@@ -1,0 +1,76 @@
+# Header
+menu:
+  - title: Home
+    link: /
+  - title: About
+    link: /about
+  - title: Contact
+    link: /contact
+  - title: Maps
+    dropdown:
+      - header: Minecraft maps
+      - title: Chorus Chaos!
+        link: /maps/choruschaos.html
+      - title: Godzilla
+        link: /maps/godzilla.html
+      - title: G.A.T.O.S
+        link: /maps/gatos.html
+      - title: Skygrind
+        link: /maps/skygrind.html
+      - title: Guardian boss fight
+        link: /maps/guardianbossfight.html
+      - title: Nomad Survival
+        link: /maps/nomadsurvival.html
+      - title: The Ultimate Build Tutorial
+        link: /maps/buildtutorial.html
+      - title: Total House Bombover
+        link: /maps/totalhousebombover.html
+      - title: Go to the Moon!
+        link: /maps/moon.html
+      - title: "MC Story Mode: Wither Storm"
+        link: /maps/witherstorm.html
+      - title: Minecraft Half Heart Race
+        link: /maps/halfheartrace.html
+  - title: Tools
+    dropdown:
+      - header: Tools by Team Wooloo
+      - title: Command dispenser randomizer fix
+        link: /tools/commanddispenserfix.html
+      - divider: true
+      - header: Third party Tools
+      - title: MC Stacker
+        link: http://bimbimma.com/mcstacker/
+        newtab: true
+      - title: Minecraft JSON
+        link: http://minecraftjson.com/
+        newtab: true
+      - title: Give commands
+        link: http://ezekielelin.com/give/
+        newtab: true
+      - title: Skulls/Heads
+        link: http://crushedpixel.eu/skull/
+        newtab: true
+      - title: Minecraft Armorstand
+        link: http://haselkern.github.io/Minecraft-ArmorStand/
+        newtab: true
+  - title: Commands
+    dropdown:
+      - header: Contraptions with commands
+      - title: Paintball guns in Minecraft!
+        link: /commands/paintballguns.html
+      - title: Hermitcraft boss battle
+        link: /commands/hermitcraft.html
+      - title: Better Sea Life
+        link: /commands/sealife.html
+      - title: Become an UNICORN!
+        link: /commands/unicorn.html
+      - title: quadcopter DRONES!
+        link: /commands/drones.html
+      - title: Tazers
+        link: /commands/tazer.html
+      - title: more coming soon...
+  - title: More!
+    dropdown:
+      - header: Resource Packs
+      - title: Snipers in vanilla Minecraft!
+        link: /resource_packs/sniper.html

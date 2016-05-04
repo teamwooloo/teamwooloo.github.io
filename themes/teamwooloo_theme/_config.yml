@@ -1,0 +1,26 @@
+widgets:
+  - google_ad
+  - tweets
+
+nav_icons:
+  youtube: 'https://youtube.com/TeamWooloo'
+  twitter: 'https://twitter.com/TeamWooloo'
+
+google_analytics: 'UA-62627850-1'
+
+video_background_url: 'https://www.youtube.com/watch?v=iA9t3-BxfUw'
+
+widget:
+  twitter:
+    name: TeamWooloo
+    id: '585451393902841856'
+
+favicon: /favicon.png
+
+bootstrap:
+  javascript: true
+  enabled_plugins:
+    - button
+    - carousel
+    - collapse
+    - dropdown

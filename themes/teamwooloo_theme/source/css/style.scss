@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+$brand-primary: #93c54b;//#75d832;
+$brand-primary-shaded: #89be3d;
+$brand-primary-dark: #6b9430;
+$navbar-dark-color: $brand-primary-dark;
+
+$navbar-dark-color:                 rgba(255,255,255,.5) !default;
+$navbar-dark-hover-color:           rgba(255,255,255,.75) !default;
+//$link-color: #468c26;
+$carousel-bg-color: #04062D;
+
+@import "_bootstrap/bootstrap";
+
+@import "carousel";
+@import "callout";
+@import "marketing";
+@import "navbar";
+
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a.deco-none {
+  color: inherit;
+  text-decoration:none;
+}
+
+.page-inner img {
+  @extend .img-fluid;
+}
+
+.video-container{
+  @extend .embed-responsive;
+  @extend .embed-responsive-16by9;
+  iframe {
+    @extend .embed-responsive-item;
+  }
+}
+
+#main-content {
+  margin-top: 4rem;
+}
+
+#toTop{
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+
+.footer {
+  color: $body-color;
+}
+
+
+
+/* no video background on mobile (if the js detects the display:none it won't load the video) */
+@media screen and (max-width: 768px) {
+  .bg_player{
+    display: none;
+  }
+}

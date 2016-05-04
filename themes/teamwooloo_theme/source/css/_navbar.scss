@@ -1,0 +1,125 @@
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+
+@include media-breakpoint-up(lg) {
+  .navbar-container {
+    max-width: 980px !important;
+  }
+}
+
+// Floating navbar if screen is big enough
+@include media-breakpoint-up(sm) {
+  .navbar-wrapper {
+    margin-top: 1.5rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .brand-wrap{
+    float: right;
+  }
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding-top:    0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar-brand-img {
+  padding: 0.2rem 0;
+  max-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.nav-icon {
+  line-height: 1rem !important;
+  padding: 0.5rem !important;
+  font-size: 2.5rem !important;
+  color: $navbar-dark-active-color;
+}
+
+
+.navbar div[aria-expanded=true] .navbar-nav {
+
+  .open > .nav-link,
+  .active > .nav-link,
+  .nav-link.open,
+  .nav-link.active {
+    background-color: $brand-primary;
+    color: $navbar-dark-active-color;
+  }
+
+  .nav-item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-line {
+    width: 100%;
+  }
+
+  .nav-link, .nav-entry {
+    display: block;
+    padding: 0.125rem;
+  }
+
+}
+
+.navbar-nav {
+
+  .open > .nav-link,
+  .active > .nav-link,
+  .nav-link.open,
+  .nav-link.active {
+    background-color: $brand-primary-shaded;
+    color: $navbar-dark-active-color;
+  }
+
+  .nav-item {
+    float: left;
+    font-weight: 100;
+  }
+
+  .nav-link, .nav-entry {
+    display: block;
+    padding: 1rem;
+
+    + .nav-link, .nav-entry {
+      margin-left: 0;
+    }
+  }
+
+  .nav-item + .nav-item {
+    margin-left: 0;
+  }
+}
+
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+

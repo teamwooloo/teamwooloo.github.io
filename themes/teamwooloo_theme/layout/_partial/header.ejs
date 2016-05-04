@@ -1,0 +1,116 @@
+<header class="navbar-wrapper">
+    <div class="container navbar-container">
+        <nav id="header_nav" class="navbar navbar-dark bg-primary navbar-static-top">
+
+            <div class="navbar-header">
+                <a class="nav-icon hidden-lg-up pull-left"
+                        data-toggle="collapse"
+                        data-target="#navbar"
+                        aria-expanded="false"
+                        aria-controls="navbar">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+
+                </a>
+
+                <span class="brand-wrap">
+                    <a href="/" class="pull-left">
+                        <img class="navbar-brand-img" src="/img/headerpic.png">
+                    </a>
+
+                    <a href="<%- url_for() %>" class="navbar-brand"> <%= config.title %></a>
+                </span>
+
+            </div>
+
+            <div id="navbar" class="navbar-toggleable-md collapse">
+                <ul class="nav navbar-nav">
+
+
+
+                    <% for(var i = 0; i < site.data.menu.menu.length; i++){
+                        var menuItem = site.data.menu.menu[i];
+                    if(!!menuItem.link){ %>
+
+                    <li class="nav-item nav-line">
+                        <a class="nav-link <%- (   url_for(menuItem.link) == url_for(page.path)
+                                                || url_for(menuItem.link) + 'index.html'  == url_for(page.path)
+                                               ) ? 'active' : '' %>"
+                           href="<%- url_for(menuItem.link) %>"
+                                <%- menuItem.newtab ? 'target="_blank"' : '' %>>
+                            <%- menuItem.title %>
+                        </a>
+                    </li>
+
+                    <% } else if(menuItem.dropdown){ %>
+
+                    <li class="nav-item dropdown nav-line">
+                        <a class="nav-link dropdown-toggle"
+                           data-toggle="dropdown"
+                           href="#"
+                           role="button"
+                           aria-haspopup="true"
+                           aria-expanded="false"><%- menuItem.title %></a>
+                        <div class="dropdown-menu">
+
+                            <% for(var j = 0; j < menuItem.dropdown.length; j++){
+                                var dropdownItem = menuItem.dropdown[j];
+                            if(!!dropdownItem.title){
+                                if(!!dropdownItem.link){ %>
+                                    <a class="dropdown-item"
+                                       href="<%- url_for(dropdownItem.link) %>"
+                                            <%- dropdownItem.newtab ? 'target="_blank"' : '' %>>
+                                        <%- dropdownItem.title %></a>
+                                <% } else { %>
+                                    <span class="dropdown-item text-muted"><%- dropdownItem.title %></span>
+                                <% }
+                            } else if(!!dropdownItem.header){ %>
+                            <h6 class="dropdown-header"><%- dropdownItem.header %></h6>
+                            <% } else if(!!dropdownItem.divider){ %>
+                            <div class="dropdown-divider"></div>
+                            <% }
+                            } %>
+
+                        </div>
+                    </li>
+
+                    <% }
+                    } %>
+                </ul>
+
+                <div class="pull-lg-right">
+                    <ul class="nav navbar-nav">
+
+
+                        <% if (theme.subtitle){ %>
+                            <li class="nav-item nav-line"><i id="subtitle" class="nav-entry hidden-sm-down"><%- theme.subtitle %></i></li>
+                        <% } %>
+                    </ul>
+
+                    <ul class="nav navbar-nav">
+
+                        <% for (var k in theme.nav_icons){ %>
+                            <li class="nav-item">
+                                <a class="nav-entry nav-icon" target="_blank" href="<%- url_for(theme.nav_icons[k]) %>">
+                                    <i class="fa fa-<%= k %>"></i>
+                                </a>
+                            </li>
+                        <% } %>
+
+                        <% if (config.feed){ %>
+                            <li class="nav-item">
+                                <a id="nav-rss-link" class="nav-entry nav-icon" target="_blank" href="<%- config.feed.path %>" title="RSS Feed">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        <% } %>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+    </div>
+</header>

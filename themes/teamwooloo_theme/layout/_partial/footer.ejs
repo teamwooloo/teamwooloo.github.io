@@ -1,0 +1,10 @@
+<footer id="footer" class="footer">
+    <div class="card-block text-xs-center">
+        <p class="card-text text-muted">
+            &copy; <%= config.copyright_begin %> - <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+            <% if(config.privacy_policy){ %>
+            | <a href="<%- config.privacy_policy %>">Privacy</a>
+            <% } %>
+        </p>
+    </div>
+</footer>
