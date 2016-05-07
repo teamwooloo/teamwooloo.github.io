@@ -1,4 +1,4 @@
-title: Javelin Throw (Wooloo Games #1)
+title: "Javelin Throw (Wooloo Games #1)"
 alias: /javelin.html
 has_download: true
 ---
@@ -33,7 +33,7 @@ so you don't have to download it when training or going for a high score. In mul
 ## World download
 
 <a class="download-link"
-   href="https://www.mediafire.com/?9f92j27z8bp3t6r">
+   href="https://www.mediafire.com/?slh9zk8f5rimz1d">
    Click here to Download the Map!
 </a>
 
