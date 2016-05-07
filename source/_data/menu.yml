@@ -31,6 +31,8 @@ menu:
         link: /maps/witherstorm.html
       - title: Minecraft Half Heart Race
         link: /maps/halfheartrace.html
+      - title: Javelin Throw
+        link: /maps/javelin.html
   - title: Tools
     dropdown:
       - header: Tools by Team Wooloo
