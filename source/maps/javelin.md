@@ -1,4 +1,4 @@
-title: Javelin Throw (Wooloo Games #1)
+title: "Javelin Throw (Wooloo Games #1)"
 alias: /javelin.html
 has_download: true
 ---
