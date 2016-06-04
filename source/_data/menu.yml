@@ -70,6 +70,8 @@ menu:
         link: /commands/drones.html
       - title: Tazers
         link: /commands/tazer.html
+      - title: Freeze Rays
+        link: /commands/freeze.html
       - title: more coming soon...
   - title: More!
     dropdown:
