@@ -31,8 +31,10 @@ menu:
         link: /maps/witherstorm.html
       - title: Minecraft Half Heart Race
         link: /maps/halfheartrace.html
-      - title: NEW! Wooloogames
+      - title: Wooloogames
         link: /maps/wooloogames.html
+      - title: "NEW! Who's Your Daddy"
+        link: /maps/whosyourdaddy.html
   - title: Tools
     dropdown:
       - header: Tools by Team Wooloo

@@ -1,4 +1,10 @@
 items:
+  - headline: "WHO'S YOUR DADDY!"
+    text: "We recreated Who's Your Daddy in Vanilla Minecraft!"
+    button:
+        text: Check it out!
+        url: "/whosyourdaddy.html"
+        newtab: false
   - headline: "Minecraft Wooloo Games"
     text: Olympic Games recreated in Minecraft!
     button:
@@ -11,9 +17,4 @@ items:
         text: Check Out Healf Heart Race!
         url: "/halfheartrace.html"
         newtab: false
-  - headline: "Tazers added to Minecraft!"
-    text: We added Tazers to the game, installable with only one command!
-    button:
-        text: Check out the Tazers!
-        url: "/tazer.html"
-        newtab: false
+
