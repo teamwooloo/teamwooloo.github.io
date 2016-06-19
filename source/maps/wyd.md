@@ -22,11 +22,10 @@ The second download is the Resource Pack. All players have to enable this Resour
 
 IMPORTANT: If you are a YOUTUBER you have to copy this INTO THE DESCRIPTION:
 
-    Map Made By: http://www.youtube.com/TeamWooloo & http://www.youtube.com/c/Grian
+    Map Made By: http://www.youtube.com/TeamWooloo and http://www.youtube.com/c/Grian
     Download: https://youtu.be/mXl0LjSH0h0
 
-IF YOU DONT you will be added to an AUTOMATIC KILL LIST for any future updates and future maps. We are sorry we have to do this but our
-creation have been abused so many times in the past we have to take serious steps to protect them. PLEASE DONT FORGET TO CREDIT
+IF YOU DONT you will be added to an Automatic Kill List In-Game (this will automaticly /kill you whenever you join or respawn) for any future updates and future maps. We are sorry we have to do this but our creations have been abused so many times in the past we have to take serious steps to protect them. PLEASE DONT FORGET TO CREDIT!
 
 But anyways. Here are the downloads. Have fun!
 
