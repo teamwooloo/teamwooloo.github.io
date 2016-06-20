@@ -30,7 +30,7 @@ IF YOU DONT you will be added to an Automatic Kill List In-Game (this will autom
 But anyways. Here are the downloads. Have fun!
 
 <a class="download-link"
-   href="https://www.mediafire.com/?95a2w5px55zti5y">
+   href="https://www.mediafire.com/?p6zqc4g7laqgkos">
    Download the map!
 </a>
 
