@@ -29,6 +29,8 @@ IF YOU DONT you will be added to an Automatic Kill List In-Game (this will autom
 
 But anyways. Here are the downloads. Have fun!
 
+EVERYBODY NEEDS TO DOWNLOAD AND INSTALL THE RESOURCE PACK (SECOND LINK) (IF YOU DONT KNOW HOW GOOGLE "How to install Resource Pack Minecraft). IF YOU SEE SAND BLOCKS INSTEAD OF BABIES AND OTHER THINGS NOT WORKING, MAKE SURE THE RESOURCE PACK IS INSTALLED
+
 <a class="download-link"
    href="https://www.mediafire.com/?p6zqc4g7laqgkos">
    Download the map!
