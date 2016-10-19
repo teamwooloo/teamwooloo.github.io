@@ -19,8 +19,9 @@ Your village is in danger. A gigantic dragon is threatening to destroy it! After
 
 This map offers a Unique Experience. It only takes about 5 minutes if you are going to hurry, so we recommend taking your time and having fun as a giant for an optimal experience!
 
-Tested for: Minecraft Version 1.10
-Don't Use OPTIFINE, and play on SINGLEPLAYER
+Tested for: Minecraft Version 1.10.
+
+Don't Use OPTIFINE and play on SINGLEPLAYER
 
 IMPORTANT: If you are a YOUTUBER you have to copy this INTO THE DESCRIPTION:
 
