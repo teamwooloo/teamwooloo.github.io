@@ -33,8 +33,10 @@ menu:
         link: /maps/halfheartrace.html
       - title: Wooloogames
         link: /maps/wooloogames.html
-      - title: "NEW! Who's Your Daddy"
+      - title: "Who's Your Daddy"
         link: /maps/wyd.html
+      - title: "A Giant Quest"
+        link: /maps/giant.html
   - title: Tools
     dropdown:
       - header: Tools by Team Wooloo

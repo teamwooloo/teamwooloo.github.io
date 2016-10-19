@@ -1,4 +1,4 @@
-title: Minecraft: A Giant Quest
+title: A Giant Quest
 alias:
   - "/giant.html"
   - "/maps/giant.html"
