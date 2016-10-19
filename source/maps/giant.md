@@ -13,13 +13,14 @@ has_download: true
 
 Welcome to A Giant Quest!
 
-Have you ever wanted to become a Giant? Well this is your chance! In this Minecraft Custom Map "A Giant Quest" YOU can become a giant!
+Have you ever wanted to become a Giant? Well this is your chance! In this Minecraft Custom Map YOU can become a giant!
 
 Your village is in danger. A gigantic dragon is threatening to destroy it! After becoming Gigantic you go on an epic quest to defeat him. You travel through the giant island, in search for key items you need to destroy him. Don't just focus on killing the dragon though, enjoy the view while you are up there, explore the region and maybe even destroy everything because you can't be trusted with so much power!
 
+This map offers a Unique Experience. It only takes about 5 minutes if you are going to hurry, so we recommend taking your time and having fun as a giant for an optimal experience!
+
 Tested for: Minecraft Version 1.10
-IMPORTANT: Don't Use OPTIFINE! The models will appear weird!
-SINGLEPLAYER ONLY! We are working on a Multiplayer version.
+Don't Use OPTIFINE, and play on SINGLEPLAYER
 
 IMPORTANT: If you are a YOUTUBER you have to copy this INTO THE DESCRIPTION:
 
