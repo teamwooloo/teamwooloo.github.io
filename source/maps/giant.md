@@ -29,7 +29,7 @@ IMPORTANT: If you are a YOUTUBER you have to copy this INTO THE DESCRIPTION:
 
 IF YOU DONT you will be added to an Automatic Kill List In-Game (this will automaticly /kill you whenever you join or respawn) for any future updates and future maps. We are sorry we have to do this but our creations have been abused so many times in the past we have to take serious steps to protect them. PLEASE DONT FORGET TO CREDIT ;-;!
 
-But anyways. Here are the downloads. Have fun!
+But anyways. Here's the download. Have fun!
 
 <a class="download-link"
    href="https://www.mediafire.com/?n7t4ee7ecw837hc">
